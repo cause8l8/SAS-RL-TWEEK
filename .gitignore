@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Build artifacts and local tooling
+build/
+dist/
+release/
+.build-tools/
+
+# Local secrets and certificates
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
